@@ -1,0 +1,13 @@
+# Python backend
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Another frontend folder
+social-frontend/node_modules/
+social-frontend/dist/
+social-frontend/.env
+
+# System files
+.DS_Store
+Thumbs.db
