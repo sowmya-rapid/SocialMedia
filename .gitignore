@@ -11,3 +11,4 @@ social-frontend/.env
 # System files
 .DS_Store
 Thumbs.db
+backend/.env
