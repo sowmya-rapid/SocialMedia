@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package user;
+
+// gRPC service exposed by User Microservice
+service UserService {
+  rpc ValidateUser (ValidateUserRequest) returns (ValidateUserResponse);
+}
+
+// Request message
+message ValidateUserRequest {
+  string user_id = 1;
+}
+
+// Response message
+message ValidateUserResponse {
+  bool is_valid = 1;
+}

@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pymongo
+grpcio
+grpcio-tools
+python-dotenv
