@@ -12,3 +12,7 @@ social-frontend/.env
 .DS_Store
 Thumbs.db
 backend/.env
+.env
+venv/
+__pycache__/
+*.pyc
